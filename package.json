@@ -1,0 +1,36 @@
+{
+  "name": "ts-start",
+  "version": "1.0.0",
+  "description": "A typescript starter for building javascript libraries and projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "test": "jest",
+    "test:c": "jest --coverage",
+    "test:w": "jest --watchAll --coverage",
+    "lint": "eslint \"src/**\"",
+    "lint:f": "eslint \"src/**\" --fix ",
+    "format": "prettier --write '{.,__tests__,src/**}/*.{ts,tsx}'"
+  },
+  "keywords": [
+    "typescript",
+    "start"
+  ],
+  "author": "xiaomuzhu",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0",
+    "react": "^16.10.2"
+  }
+}
