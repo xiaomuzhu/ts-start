@@ -13,6 +13,7 @@
     "removeComments": true,                     // 删除编译后的所有的注释
     "noImplicitReturns": true,                  // 不是函数的所有返回路径都有返回值时报错
     "importHelpers": true,                      // 从 tslib 导入辅助工具函数
+    "strictPropertyInitialization": true,       // 必须要确保每个实例的属性都会初始值
     "lib": ["es6", "dom"],                      // 指定要包含在编译中的库文件
     "typeRoots": ["node_modules/@types"],
     "outDir": "./dist",
